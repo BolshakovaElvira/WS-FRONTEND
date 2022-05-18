@@ -1,0 +1,20 @@
+.groups-section {
+    padding-bottom: 150px;
+    width: 100%;
+}
+
+
+.groups-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 946px) {
+
+    .groups-section {
+        width: 95%;
+    }
+
+    
+}

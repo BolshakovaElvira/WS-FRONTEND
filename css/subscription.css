@@ -1,0 +1,59 @@
+.subscription-section {
+    padding-bottom: 85px;
+}
+
+.subscription,
+.metrics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscription-left,
+.metrics-right {
+    width: 350px;
+}
+
+.subscription-right,
+.metrics-left {
+    max-width: 50%;
+    padding-top: 100px;
+}
+
+.subscription-title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #19191B;
+}
+
+.subscription-subtitle {
+    width: 480px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.subscription-link {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #5454D4;
+    transition: .5s ease;
+}
+
+.subscription-link:hover {
+    color: #f36232;
+}
+
+@media screen and (max-width: 927px) {
+
+    .subscription-left,
+    .metrics-right {
+        width: 350px;
+    }
+    
+    .subscription-right,
+    .metrics-left {
+        max-width: 500px; 
+    }
+
+}

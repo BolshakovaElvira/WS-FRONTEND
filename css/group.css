@@ -1,20 +1,10 @@
-.groups-section {
-    padding-bottom: 150px;
+.group {
+    padding-top: 85px;
     width: 100%;
 }
 
-
-.groups-list {
+.group-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-@media screen and (max-width: 946px) {
-
-    .groups-section {
-        width: 95%;
-    }
-
-    
 }

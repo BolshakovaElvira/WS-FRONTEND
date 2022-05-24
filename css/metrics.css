@@ -1,25 +1,25 @@
-.metrics-section {
+.metrics {
     padding-bottom: 140px;
-    display: flex;
-    justify-content: space-between;
-    
 }
 
-.metrics-left {
-    max-width: 50%;
-    padding-top: 150px;
+.audits {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
 }
-.metrics-right {
-    width: 350px;
+
+.audit {
+    text-align: center;
 }
-.metrics-img {
+
+.metric-img {
     display: block;
     width: 151px;
     margin: 0 auto;
     margin-bottom: 7px;
 }
 
-.metrics-title {
+.metric-title {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
@@ -27,10 +27,26 @@
     color: #19191B;
 }
 
-.metrics-subtitle {
+.metric-subtitle {
     width: 310px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #696871;
+}
+
+@media screen and (max-width: 927px) {
+
+    .audit {
+        max-width: 250px;
+    }
+
+    .metric-title {
+        font-size: 20px;
+    }
+    
+    .metric-subtitle {
+        width: 250px;
+    }
+
 }

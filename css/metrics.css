@@ -12,14 +12,14 @@
     text-align: center;
 }
 
-.metric-img {
+.metric__img {
     display: block;
     width: 151px;
     margin: 0 auto;
     margin-bottom: 7px;
 }
 
-.metric-title {
+.metric__title {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
@@ -27,7 +27,7 @@
     color: #19191B;
 }
 
-.metric-subtitle {
+.metric__subtitle {
     width: 310px;
     font-size: 16px;
     line-height: 24px;
@@ -41,11 +41,18 @@
         max-width: 250px;
     }
 
-    .metric-title {
+    .audits {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px 0px;
+    }
+    
+    .metric__title {
         font-size: 20px;
     }
     
-    .metric-subtitle {
+    .metric__subtitle {
         width: 250px;
     }
 

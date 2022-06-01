@@ -1,11 +1,12 @@
 .menu__list {
     display: flex;
     justify-content: space-between;
+    gap: 0px 50px;
 }
 
 .menu__list-item {
     position: relative;
-    margin-right: 50px;
+    
 }
 
 .menu__list-link {
@@ -65,6 +66,5 @@
 
     .btn-head {
         padding: 20px 60px;
-        margin-right: 50px;
     }
 }

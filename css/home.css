@@ -74,6 +74,10 @@
     transform: translate(-50%, -50%);
 }
 
+.home-nav-arrow:hover {
+    border: 1.5px solid #484545;
+}
+
 @media screen and (max-width: 1070px) {
 
     .home__left {
@@ -87,7 +91,6 @@
     .home__right {
         width: 500px;
     }
-
 }
 
 @media screen and (max-width: 927px) {
@@ -109,7 +112,6 @@
         width: 450px;
         height: 500px;
     }
-
 }
 @media screen and (max-width: 877px) {
 
@@ -118,11 +120,12 @@
         align-items: center
     }
 
-    .home__right>img {
-        top: 40px;
+    .home-nav-arrow::before {
+        width: 25px;
+        height: 27px;
     }
 
-    .home__nav {
-        gap: 40px;
+    .home__right>img {
+        top: 40px;
     }
 }

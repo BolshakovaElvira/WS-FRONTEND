@@ -24,7 +24,7 @@
     border-radius: 10px;
 }
 
-.product__tabs__item {
+.product__tab-item {
     width: 175px;
     text-align: center;
     font-size: 16px;
@@ -32,7 +32,7 @@
     color: #19191B;
 }
 
-.product__tabs_check {
+.product__tabs-check {
     padding: 17px 8px;
     margin: 5px 0 5px 5px;
     border-radius: 10px 0px 0px 10px;
